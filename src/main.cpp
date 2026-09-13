@@ -12,11 +12,11 @@ auto timeMins  = Mod::get()->getSettingValue<int64_t>("time_mins");
 using namespace geode::prelude;
 
 $execute {
-    listenForSettingChanges("time_hours", [](int64_t value) {
+    listenForSettingChanges<int64_t>("time_hours", [](int64_t value) {
         timeHours = Mod::get()->getSettingValue<int64_t>("time_hours");
     });
 
-    listenForSettingChanges("time_mins", [](int64_t value) {
+    listenForSettingChanges<int64_t>("time_mins", [](int64_t value) {
         timeMins = Mod::get()->getSettingValue<int64_t>("time_mins");
     });
 }

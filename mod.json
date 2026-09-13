@@ -1,32 +1,32 @@
 {
-    "geode": "4.4.0",
-	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
-	},
-	"id": "supkittymeow.time_anti-restart",
-	"name": "Time Anti-restart",
-	"version": "v1.0.2",
-	"developer": "SupKittyMeow",
-	"description": "Turns off auto-restart after a set time",
-	"tags": ["utility", "offline"],
-	"settings": {
-		"time_hours": {
-			"type": "int",
-			"name": "Hours",
-			"description": "Make sure your time is in 24 hour format",
-			"default": 20,
-			"min": 1,
-			"max": 24
-		},
-		"time_mins": {
-			"type": "int",
-			"name": "Minutes",
-			"default": 0,
-			"min": 0,
-			"max": 60
-		}
-	}
+  "geode": "5.10.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "precontation.time_anti-restart",
+  "name": "Time Anti-restart",
+  "version": "v1.0.3",
+  "developer": "Precontation",
+  "description": "Turns off auto-restart after a set time",
+  "tags": ["utility", "offline"],
+  "settings": {
+    "time_hours": {
+      "type": "int",
+      "name": "Hours",
+      "description": "Make sure your time is in 24 hour format",
+      "default": 20,
+      "min": 1,
+      "max": 24
+    },
+    "time_mins": {
+      "type": "int",
+      "name": "Minutes",
+      "default": 0,
+      "min": 0,
+      "max": 60
+    }
+  }
 }
