@@ -12,6 +12,9 @@
   "developer": "Precontation",
   "description": "Turns off auto-restart after a set time",
   "tags": ["utility", "offline"],
+  "links": {
+    "source": "https://github.com/Precontation/Time_Anti-restart"
+  },
   "settings": {
     "time_hours": {
       "type": "int",
