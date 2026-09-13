@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Archived — moved to Codeberg**
- 
 <img src="logo.png" width="150" alt="Logo" />
 
 # Time Anti-restart
